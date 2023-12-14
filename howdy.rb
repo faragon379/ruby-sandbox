@@ -1,14 +1,13 @@
 # /howdy.rb
-source "https://rubygems.org"
-
-gem "activesupport"
-gem "awesome_print"
-gem "pry-byebug"
 
 require "active_support/all"
 
-
 my_string = "Hello, world!"
 pp my_string
+
+
+pp "What's your name?"
+their_name = gets
+pp "Hello, " + their_name + "!"
 
 require "./goodbye.rb"
