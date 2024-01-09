@@ -7,7 +7,7 @@ pp my_string
 
 
 pp "What's your name?"
-their_name = gets
-pp "Hello, " + their_name + "!"
+their_name = gets.chomp
+puts "Hello, " + their_name + "!"
 
 require "./goodbye.rb"
